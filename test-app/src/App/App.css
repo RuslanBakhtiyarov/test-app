@@ -1,0 +1,13 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: #151616;
+}
+.Container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "h h h"
+    "m m s"
+    "f f f";
+}
